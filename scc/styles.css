@@ -475,6 +475,42 @@ body {
   background-color: #2f303a;
 }
 
+.footer-online {
+  margin-left: 93px;
+}
+.online-form {
+  display: flex;
+}
+
+.online-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: rgba(205, 214, 219, 0);
+  padding: 15px 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  outline: transparent;
+}
+
+.online-button {
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 29px;
+}
+
+.footer-sub-icon {
+  margin-left: 10px;
+}
 /* ----------------------модельне окно------------------- */
 .backdrop {
   width: 100vw;
