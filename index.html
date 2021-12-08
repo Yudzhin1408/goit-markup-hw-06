@@ -476,10 +476,17 @@
               rows="10"
               placeholder="Введите текст"
             ></textarea>
-            <p class="modal-text-form">
-              Соглашаюсь с рассылкой и принимаю
-              <span class="modal-text-form-span"> Условия договора</span>
-            </p>
+            <div class="modal-field">
+              <input type="checkbox" name="policy" id="policy" class="modal-check visuall-hidden" />
+              <label class="modal-text-form" for="policy"
+                ><span class="check-item">
+                  <svg class="check-icon" width="11" height="8">
+                    <use href="./images/icons.svg#icon-Vector-4"></use>
+                  </svg> </span
+                >Соглашаюсь с рассылкой и принимаю
+                <a class="modal-link-form" href="">Условия договора</a>
+              </label>
+            </div>
           </div>
           <button class="hero-button button-form" type="submit">Отправить</button>
         </form>
