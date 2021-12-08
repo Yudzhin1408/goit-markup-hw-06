@@ -643,6 +643,16 @@ body {
 }
 
 .button-form {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.modal-text-form {
+}
+
+.modal-text-form-span{
+  
 }
 
 /* ------------------------------портфолио-------------------------------- */
