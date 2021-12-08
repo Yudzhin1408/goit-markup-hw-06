@@ -16,7 +16,7 @@
   --work-text: #ffffff;
 
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
-  --time: 2050ms;
+  --time: 250ms;
 }
 
 h1,
@@ -642,12 +642,8 @@ body {
   border-color: var(--accent-color);
 }
 
-/* .button-form {
-  display: block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+.button-form {
+}
 
 /* ------------------------------портфолио-------------------------------- */
 .btn-list {
