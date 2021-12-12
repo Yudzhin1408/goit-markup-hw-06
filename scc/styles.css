@@ -647,6 +647,7 @@ body {
 .button-form {
   display: block;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .check-item {
